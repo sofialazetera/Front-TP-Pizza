@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 1rem;
+
+}
+ul{
+    list-style-type: none;
+
+}
+ul li{
+    padding: 5px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul li{
+    padding: 1rem;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main section{
+    margin: 3rem 1rem;
+    width: 490px;
+    height: 350px;
+}
+main .izquierda{
+    background-image: url('../img/delivery.png');
+    background-size: cover;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    text-align: center;
+    padding: 1rem;
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    padding-bottom: 2rem;
+
+}
+main .izquierda h2{
+
+    text-align: left;
+}
+
+main .izquierda h2 span{
+    color: blanchedalmond;
+}
+
+main section .pizzas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+}
+ol li{
+    font-weight: bold;
+    font-size: 16px;
+    padding: .5rem;
+}
+
+footer{
+    background: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
