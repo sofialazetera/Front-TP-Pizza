@@ -75,6 +75,7 @@ main section .pizzas{
     align-items: center;
     height: 90%;
 }
+
 ol li{
     font-weight: bold;
     font-size: 16px;
